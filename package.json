@@ -1,0 +1,22 @@
+{
+  "name": "e2e-testing",
+  "version": "1.0.0",
+  "repository": "https://github.com/mattyfours/e2e-testing.git",
+  "author": "Matthew Fournier <matthew@halfhelix.com>",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "nodemon --exec 'yarn start'",
+    "start": "yarn build && node dist/index.js",
+    "build": "rm -rf dist && node esBuild.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0",
+    "nodemon": "^3.1.7",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "puppeteer": "^23.6.0",
+    "puppeteer-core": "^23.6.0"
+  }
+}

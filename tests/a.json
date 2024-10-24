@@ -1,0 +1,13 @@
+{
+  "url": "www.google.com",
+  "browser_width": 1920,
+  "browser_height": 1080,
+  "steps": [
+    {
+      "type": "click"
+    },
+    {
+      "type": "hover"
+    }
+  ]
+}
